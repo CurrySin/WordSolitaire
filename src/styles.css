@@ -1,1 +1,121 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+.signup-button {
+    width: 100%;
+    height: 40px !important;
+}
+
+.article-board {
+    margin: 20px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    border-radius: 15px !important;
+    box-shadow: 10px 10px rgba(250, 250, 250) !important;
+}
+
+.article-card {
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.75) !important;
+    border-radius: 15px !important;
+}
+
+.login-card {
+    margin: 20px;
+    height: 85vh;
+    background-color: rgba(255, 255, 255, 0.75) !important;
+    border-radius: 15px !important;
+    box-shadow: 10px 10px rgba(250, 250, 250, 0.3) !important;
+}
+
+.user-icon-default {
+    background-image: url('./assets/custom/image/pixel-1682363_1280.png');
+    height: 100px;
+    width: 100px;
+    margin: 60px auto -45px auto;
+    border-radius: 50%;
+    flex-shrink: 0;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+.bottom-line {
+    border-bottom: 1px solid rgba(7, 7, 7, 0.4);
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container>* {
+    width: 100%;
+}
+
+.margin-10 {
+    margin: 10px;
+}
+
+.margin-bottom-10 {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-105px {
+    margin-bottom: 105px;
+}
+
+.margin-10-auto-10-auto {
+    margin: auto 10px auto 10px !important;
+}
+
+.font-size-30 {
+    font-size: 30px !important;
+}
+
+body {
+    background-image: url("./assets/custom/image/7022637-japan-writing-idioms.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.float-right {
+    float: right !important;
+}
+
+.display-none {
+    display: none;
+}
+
+.height-20 {
+    height: 20px;
+}
+
+.float-right {
+    float: right;
+}
+
+.article-content {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+
+.hideNavBar {
+    display: none;
+    position: fixed;
+    width: 100%;
+    z-index: 3;
+    margin-top: -58px;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
